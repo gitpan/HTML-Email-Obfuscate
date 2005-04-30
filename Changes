@@ -1,0 +1,7 @@
+Revision history for Perl extension Params::Util
+
+0.02 Sat Apr 30 2005
+	- Cleaned everything up for upload to CPAN
+
+0.01 Fri Nov 06 2005
+	- Completed the first implementation

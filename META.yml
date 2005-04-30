@@ -1,0 +1,16 @@
+name: HTML-Email-Obfuscate
+version: 0.02
+abstract: Your suitcase nuke in the fight against email scraping
+author: Adam Kennedy <cpan@ali.as>
+license: perl
+distribution_type: module
+build_requires:
+  Test::More: 0.47
+  File::Spec: 0.82
+requires:
+  perl: 5.005
+  HTML::Parser: 2.25
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.36
