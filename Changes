@@ -1,5 +1,10 @@
 Revision history for Perl extension Params::Util
 
+1.00 Mon  4 Sep 2005
+	- Importing from old CVS to new SVN repository
+	- Upgrading to Module::Install 0.64
+	- Removing File::Spec dependency
+
 0.02 Sat Apr 30 2005
 	- Cleaned everything up for upload to CPAN
 

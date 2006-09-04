@@ -86,12 +86,13 @@ probably almost up.
 
 =cut
 
+use 5.005;
 use strict;
 use HTML::Entities ();
 
 use vars qw{$VERSION @WRAP_METHOD};
 BEGIN {
-	$VERSION = '0.02';
+	$VERSION = '1.00';
 
 	# The list of modifier methods
 	@WRAP_METHOD = qw{
@@ -267,14 +268,15 @@ For other issues, or commercial enhancement or support, contact the author.
 
 =head1 AUTHORS
 
-Adam Kennedy (Maintainer), L<http://ali.as/>, cpan@ali.as
+Adam Kennedy E<lt>adamk@cpan.orgE<gt>
 
 Thank you to Phase N (L<http://phase-n.com/>) for permitting
 the open sourcing and release of this distribution.
 
 =head1 COPYRIGHT
 
-Copyright (c) 2004 - 2005 Adam Kennedy. All rights reserved.
+Copyright 2004 - 2006 Adam Kennedy.
+
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
 
